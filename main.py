@@ -12,10 +12,10 @@ async def main():
   user = Client("6664582540",
                 api_id="27649783",
                 api_hash="834fd6015b50b781e0f8a41876ca95c8")
-  bot = Client("6576720076:AAHl8BykARQd19gwLyE2BN-6q3tc_StYrUo",
+  bot = Client("7065198244:AAG-y6kZ83KB1yFlOwQPresRNgzq0uzSv4c",
                api_id="27649783",
                api_hash="834fd6015b50b781e0f8a41876ca95c8",
-               bot_token="6576720076:AAHl8BykARQd19gwLyE2BN-6q3tc_StYrUo",
+               bot_token="7065198244:AAG-y6kZ83KB1yFlOwQPresRNgzq0uzSv4c",
                plugins=plugins)
   clients = [user, bot]
   bot.set_parse_mode(enums.ParseMode.HTML)
