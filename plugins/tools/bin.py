@@ -97,7 +97,7 @@ async def cmd_bin(Client,message):
 𝗖𝗼𝘂𝗻𝘁𝗿𝘆: {country} - {flag} - {currency}
 
 𝗖𝗵𝗲𝗰𝗸𝗲𝗱 𝗕𝘆 <a href="tg://user?id={message.from_user.id}"> {message.from_user.first_name}</a> [ {role} ]
-𝗕𝗼𝘁 𝗕𝘆 <a href="tg://user?id=6691393517">𝐌𝚁°᭄𝐃𝙰𝚇𝚇 ࿐™</a>
+𝗕𝗼𝘁 𝗕𝘆 <a href="tg://user?id=6664582540">𝐌𝚁°᭄𝐃𝙰𝚇𝚇 ࿐™</a>
         """
         await message.reply_text(resp,message.id)
   except Exception as e:

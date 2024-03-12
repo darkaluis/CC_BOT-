@@ -141,7 +141,7 @@ async def cmd_mass(Client,message):
 ⌧ Total CC Checked - {len_cards}
 ⌧ Credit Deducted - {len_cards}
 ⌧ Checked by: <a href="tg://user?id={message.from_user.id}"> {message.from_user.first_name}</a> ♻️ [ {role}]
-⌧ Client by - <a href="tg://user?id=6691393517">𝐌𝚁°᭄𝐃𝙰𝚇𝚇 ࿐™ </a>
+⌧ Client by - <a href="tg://user?id=6664582540">𝐌𝚁°᭄𝐃𝙰𝚇𝚇 ࿐™ </a>
 －－－－－－－－－－－－－－－－</b>
           """
                   await Client.edit_message_text(message.chat.id,nov.id,text)
