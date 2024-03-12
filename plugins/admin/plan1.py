@@ -13,7 +13,7 @@ async def cmd_plan1(Client, message):
         await message.reply_text(resp, message_id=message.message_id)
     else:
         try:
-            msg = message.text[len('/plan1 '):]
+            msg = message.text[len('/plan1'):]
             splitter = msg.split(' ')
             userid = splitter[0]
             paymnt_method = splitter[1]
